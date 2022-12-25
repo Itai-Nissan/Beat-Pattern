@@ -1,0 +1,60 @@
+[
+    {
+        "kitName": "rock",
+        "kitSamples": [
+            {
+                "sampleName": "kick",
+                "sampleUrl": "samples/kits/rock/rock-kick.wav"
+            },
+            {
+                "sampleName": "clap",
+                "sampleUrl": "samples/kits/rock/rock-clap.wav"
+            },
+            {
+                "sampleName": "snare",
+                "sampleUrl": "samples/kits/rock/rock-snare.wav"
+            },
+            {
+                "sampleName": "hh-close",
+                "sampleUrl": "samples/kits/rock/rock-hh-close.wav"
+            },
+            {
+                "sampleName": "hh-open",
+                "sampleUrl": "samples/kits/rock/rock-hh-open.wav"
+            },
+            {
+                "sampleName": "crash",
+                "sampleUrl": "samples/kits/rock/rock-crash.wav"
+            }
+        ]
+    },
+    {
+        "kitName": "808",
+        "kitSamples": [
+            {
+                "sampleName": "kick",
+                "sampleUrl": "samples/kits/808/808-kick.wav"
+            },
+            {
+                "sampleName": "clap",
+                "sampleUrl": "samples/kits/808/808-clap.wav"
+            },
+            {
+                "sampleName": "snare",
+                "sampleUrl": "samples/kits/808/808-snare.wav"
+            },
+            {
+                "sampleName": "hh-close",
+                "sampleUrl": "samples/kits/808/808-hh-close.wav"
+            },
+            {
+                "sampleName": "hh-open",
+                "sampleUrl": "samples/kits/808/808-hh-open.wav"
+            },
+            {
+                "sampleName": "crash",
+                "sampleUrl": "samples/kits/808/808-crash.wav"
+            }
+        ]
+    }
+]

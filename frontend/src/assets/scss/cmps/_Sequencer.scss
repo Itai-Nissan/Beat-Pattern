@@ -1,0 +1,53 @@
+.sequencer {
+
+    .control-buttons {
+        .play {
+            color: #a2f2a2;
+        }
+        .stop{
+            color: #f2a2a2;
+            
+        }
+
+        button {}
+    }
+
+    .bars {
+        display: flex;
+
+
+        .bar {
+            height: 50px;
+            width: 50px;
+        }
+
+        .bar:hover {
+            background-color: #A2F2F2;
+            background-image: -moz-linear-gradient(top, #ACFCFC, #E0E0E0);
+            background-image: -o-linear-gradient(top, #ACFCFC, #E0E0E0);
+            background-image: -webkit-linear-gradient(top, #ACFCFC, #E0E0E0);
+            background-image: linear-gradient(top, #ACFCFC, #E0E0E0);
+        }
+
+        .bar:active {
+            box-shadow: rgb(132 132 132 / 0.16) 0.5px 0.5px 2px 0.5px;
+            background-color: #A2E2A2;
+            background-image: -moz-linear-gradient(top, #A2E2A2, #E0E0E0);
+            background-image: -o-linear-gradient(top, #A2E2A2, #E0E0E0);
+            background-image: -webkit-linear-gradient(top, #A2E2A2, #E0E0E0);
+            background-image: linear-gradient(top, #A2E2A2, #E0E0E0);
+        }
+
+        .active-bar {
+            position: relative;
+            top: 1px;
+            box-shadow: rgb(132 132 132 / 0.16) 0.5px 0.5px 2px 0.5px;
+            background-color: #A2E2A2;
+            background-image: -moz-linear-gradient(top, #A2E2A2, #E0E0E0);
+            background-image: -o-linear-gradient(top, #A2E2A2, #E0E0E0);
+            background-image: -webkit-linear-gradient(top, #A2E2A2, #E0E0E0);
+            background-image: linear-gradient(top, #A2E2A2, #E0E0E0);
+        }
+
+    }
+}
