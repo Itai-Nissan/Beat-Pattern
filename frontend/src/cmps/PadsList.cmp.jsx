@@ -13,7 +13,7 @@ export function PadList({ samplesKit }) {
     return (
         <section className='pad-list'>
             <div className="header">
-                <h3>{kitName}</h3>
+                {/* <h3>{kitName}</h3> */}
             </div>
             <div className="pads">
                 {currentKit.map(sample => <PadPreview key={sample.sampleUrl} sample={sample} />)}

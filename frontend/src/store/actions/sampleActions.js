@@ -3,11 +3,11 @@ import { useDispatch, useSelector } from 'react-redux'
 
 
 export function loadSamples(filterBy) {
+    console.log('loadSamples');
 
-    return async (dispatch, getState) => {
+    return async (dispatch) => {
         try {
             const samplesKit = await sampleService.query(filterBy)
-            const samples = samplesKit.kitSamples
             dispatch({ type: 'SET_SAMPLES', samplesKit })
         } catch (err) {
             console.log('err:', err)
